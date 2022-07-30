@@ -12,8 +12,8 @@ Description: An accordion built with vanilla js
 
 It took me 7hrs most of the time was accounted for css 
 
-- 
-- 
+- Code: https://github.com/mohit-negi/javascript-accordion
+- Live preview: https://mohit-negi.github.io/javascript-accordion/
 
 # Process
 
