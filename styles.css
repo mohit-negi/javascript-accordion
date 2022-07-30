@@ -21,24 +21,40 @@ body{
     text-align: center;
     margin-bottom: 15px;
 }
-.content .question{
+.content-container .question{
     padding: 12px 0;
     cursor: pointer;
     font-size: 1.2rem;
     border-bottom: 3px solid burlywood;
     position: relative;
 }
-.content .question::after{
+.content-container .question::after{
     content: '+';
     position: absolute;
     right: 10px;
 }
-.content .answer{
+.container .content-container .answer{
     padding-top: 20px;
     font-size: 1 rem;
     line-height: 1.5;
     width: 100%;
     height: 0px;
     overflow: hidden;
+    transition: 500ms;
+}
+/*javascript styling */
+
+.content-container.active .answer{
+    height: 150px;
+}
+.content-container.active .question{
+    font-size: 1rem;
+    transition: 500ms;
+}
+.content-container.active .question::after{
+    content: '-';
+    font-size: 30px;
+    transition: 800ms;
+    margin-bottom: 50px;
 }
  

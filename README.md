@@ -9,3 +9,16 @@ Description: An accordion built with vanilla js
 - for loop
 - this keyword
 - classList.toggle()
+
+It took me 7hrs most of the time was accounted for css 
+
+- 
+- 
+
+# Process
+
+1. Assign variable the value of the content-container by getElementbyclassname()
+2. Use a for loop to iterate through every content-container (3)
+    1. add an eventlistener to every element in the for loop
+        1. use of this keyword to toggle the value of class for every element of class content-container
+3. add styling to the element, here we use advantage of css specificity; styling : namely transition and height to the answer
